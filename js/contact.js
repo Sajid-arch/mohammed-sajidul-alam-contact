@@ -103,7 +103,7 @@ function initHeaderScroll() {
 // For Contact Info Box Start
 
 
-const handleOnMouseMoveLs = e => {
+const handleOnMouseMoveCd = e => {
     const { currentTarget: target } = e;
 
 
@@ -120,7 +120,7 @@ const handleOnMouseMoveLs = e => {
 
 
     for(const conDet of document.querySelectorAll(".con-det-info")) {
-        conDet.onmousemove = e => handleOnMouseMoveLs(e);
+        conDet.onmousemove = e => handleOnMouseMoveCd(e);
     }
 
 
